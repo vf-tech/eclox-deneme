@@ -17,39 +17,6 @@
  *
  *******************************************************************************
  */
-
-/* Includes ------------------------------------------------------------------*/
-
-/** @addtogroup ${project_name}
-  * @{
-  */
-
-/** @defgroup ${file_base} ${file_base}
-  * @brief XXX
-  * @{
-  */
-/* Private types -------------------------------------------------------------*/
-/* Private variables ---------------------------------------------------------*/
-/* Private constants ---------------------------------------------------------*/
-/* Private macros ------------------------------------------------------------*/
-/* Private functions ---------------------------------------------------------*/
-/* Exported functions --------------------------------------------------------*/
-
-/** @defgroup ${file_base}_Exported_Functions Exported Functions
-  * @{
-  */
-
-/**
-  * @}
-  */
-
-/**
-  * @}
-  */
-
-/**
-  * @}
-  */
 </template><template autoinsert="true" context="org.eclipse.cdt.ui.text.codetemplates.typecomment_context" deleted="false" description="Comment for created classes" enabled="true" id="org.eclipse.cdt.ui.text.codetemplates.typecomment" name="typecomment">/*
  *
  */</template><template autoinsert="true" context="org.eclipse.cdt.ui.text.codetemplates.fieldcomment_context" deleted="false" description="Comment for fields" enabled="true" id="org.eclipse.cdt.ui.text.codetemplates.fieldcomment" name="fieldcomment">/*
@@ -82,16 +49,102 @@ ${declarations}
 
 ${namespace_end}
 
-#endif /* ${include_guard_symbol} */</template><template autoinsert="true" context="org.eclipse.cdt.core.cSource.contenttype_context" deleted="false" description="Default template for newly created C source files" enabled="true" id="org.eclipse.cdt.ui.text.codetemplates.csourcefile" name="Default C source template">${filecomment}
-${includes}
+#endif /* ${include_guard_symbol} */</template><template autoinsert="false" context="org.eclipse.cdt.core.cSource.contenttype_context" deleted="false" description="Default template for newly created C source files" enabled="true" id="org.eclipse.cdt.ui.text.codetemplates.csourcefile" name="Default C source template">${filecomment}
 
-${declarations}</template><template autoinsert="true" context="org.eclipse.cdt.core.cHeader.contenttype_context" deleted="false" description="Default template for newly created C header files" enabled="true" id="org.eclipse.cdt.ui.text.codetemplates.cheaderfile" name="Default C header template">${filecomment}
+/* Includes ------------------------------------------------------------------*/
+
+/** @addtogroup ${project_name}
+  * @{
+  */
+
+/** @defgroup ${file_base} ${file_base}
+  * @brief XXX
+  * @{
+  */
+/* Private types -------------------------------------------------------------*/
+/* Private variables ---------------------------------------------------------*/
+/* Private constants ---------------------------------------------------------*/
+/* Private macros ------------------------------------------------------------*/
+/* Private functions ---------------------------------------------------------*/
+/* Exported functions --------------------------------------------------------*/
+
+/** @defgroup ${file_base}_Exported_Functions Exported Functions
+  * @{
+  */
+
+/**
+  * @}
+  */
+
+/**
+  * @}
+  */
+
+/**
+  * @}
+  */</template><template autoinsert="false" context="org.eclipse.cdt.core.cHeader.contenttype_context" deleted="false" description="Default template for newly created C header files" enabled="true" id="org.eclipse.cdt.ui.text.codetemplates.cheaderfile" name="Default C header template">${filecomment}
+
+/* Define to prevent recursive inclusion -------------------------------------*/
 #ifndef ${include_guard_symbol}
 #define ${include_guard_symbol}
 
-${includes}
+#ifdef __cplusplus
+extern "C" {
+#endif
 
-${declarations}
+/* Includes ------------------------------------------------------------------*/
+
+/** @addtogroup ${project_name}
+  * @{
+  */
+
+/** @addtogroup ${file_base}
+  * @{
+  */
+/* Exported types ------------------------------------------------------------*/
+/** @defgroup ${file_base}_Exported_Types Exported Types
+  * @{
+  */
+
+/**
+  * @}
+  */
+/* Exported constants --------------------------------------------------------*/
+/** @defgroup ${file_base}_Exported_Constants Exported Constants
+  * @{
+  */
+
+/**
+  * @}
+  */
+/* Exported macro ------------------------------------------------------------*/
+/** @defgroup ${file_base}_Exported_Macros Exported Macros
+  * @{
+  */
+
+/**
+  * @}
+  */
+/* Exported functions --------------------------------------------------------*/
+/** @addtogroup ${file_base}_Exported_Functions
+  * @{
+  */
+
+/**
+  * @}
+  */
+
+/**
+  * @}
+  */
+
+/**
+  * @}
+  */
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif /* ${include_guard_symbol} */</template><template autoinsert="true" context="org.eclipse.cdt.ui.text.codetemplates.namespace_context" deleted="false" description="Beginning of namespace declaration" enabled="true" id="org.eclipse.cdt.ui.text.codetemplates.namespace_begin" name="namespace_begin">namespace ${namespace_name} {</template><template autoinsert="true" context="org.eclipse.cdt.ui.text.codetemplates.namespace_context" deleted="false" description="End of namespace declaration" enabled="true" id="org.eclipse.cdt.ui.text.codetemplates.namespace_end" name="namespace_end">} /* namespace ${namespace_name} */</template><template autoinsert="true" context="org.eclipse.cdt.ui.text.codetemplates.class_context" deleted="false" description="Code in created class definitions" enabled="true" id="org.eclipse.cdt.ui.text.codetemplates.class_body" name="class_body">${declarations}</template><template autoinsert="true" context="org.eclipse.cdt.ui.text.codetemplates.methodbody_context" deleted="false" description="Code in created method stubs" enabled="true" id="org.eclipse.cdt.ui.text.codetemplates.methodbody" name="methodbody">	// ${todo} Auto-generated method stub
 	${body_statement}</template><template autoinsert="true" context="org.eclipse.cdt.ui.text.codetemplates.constructorbody_context" deleted="false" description="Code in created constructor stubs" enabled="true" id="org.eclipse.cdt.ui.text.codetemplates.constructorbody" name="constructorbody">	// ${todo} Auto-generated constructor stub
