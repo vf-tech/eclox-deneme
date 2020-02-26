@@ -158,6 +158,16 @@ HAL_StatusTypeDef HAL_ADC_Start(ADC_HandleTypeDef *hadc)
 }
 
 /**
+ * @brief Denemem
+ * @param a
+ * @return (int) sınuç
+ */
+int deneme(int a)
+{
+
+}
+
+/**
   * @}
   */
 
