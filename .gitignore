@@ -1,3 +1,6 @@
 /html
 /latex
 /Debug/
+.settings/
+# Locally stored "Eclipse launch configurations"
+*.launch
