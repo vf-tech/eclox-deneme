@@ -32,11 +32,11 @@ Yapılabilecek bazı ayarlar şunlardır:
 ![](doxy-outputformat.png)
 
 ### Derleme
-
+---  
 Doxygen dökümanları toolbardan ![](doxy-symbol.png) işaretine basılarak derlenir. Çıktılar **html** klasörü altındadır.
 
 ### Ana Sayfa Oluşturma
-
+---  
 Doxygen dökümanının ana sayfası markdown formatında oluşturulabilir. Bunun için *.md uzantılı bir dosya oluşturulur ve dosyanın başına doxygenin algılaması için `@mainpage` yazıması gerekmektedir.
 
 Örnek mainpage.md dosyası:
