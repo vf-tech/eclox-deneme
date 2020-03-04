@@ -28,7 +28,8 @@ Yapılabilecek bazı ayarlar şunlardır:
 * Proje Adı , Versiyonu
 * Proje Çıktıları sadece HTML olacak şekilde ayarlanabilir.
 * Optimize results for → C
-* Advanced Sekmesinden → Generate Tree View → YES
+* Proje Çıktıları sadece HTML bölümünde (wih frames and navigation tree) seçilebilir.  
+![](doxy-outputformat.png)
 
 ### Derleme
 
