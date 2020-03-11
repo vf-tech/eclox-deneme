@@ -1,3 +1,4 @@
+@page Kurulum
 ## Kurulum
 ---
 Aşağıdaki paketlerin "Eclipse Marketplace" üzerinden kurulumu yapılır.

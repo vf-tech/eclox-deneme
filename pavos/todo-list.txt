@@ -1,0 +1,8 @@
+PAVOS v0.2 
+
+ [] Çok fazla task_xxx*.h dosyasını include etmekte sorun yaşanabilir. Bu 
+ nedenle ortak bir os_shared.h yapılabilir.
+ [] Circular Buffer gibi Linked List kütüphanesi eklenebilir.
+ [] OS Unit Testler eklenecek.
+ [] Periodic Function overload Indicator
+ 
